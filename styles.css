@@ -2,7 +2,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(
+  -45deg,
+  #2c3e50,  /* dark slate blue-gray */
+  #34495e,  /* slightly lighter slate gray */
+  #2980b9,  /* medium blue */
+  #3498db   /* soft bright blue */);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: #222;
@@ -15,7 +21,7 @@ body {
 }
 
 header {
-  background: #222;
+  background: #000000;
   color: #fff;
   padding: 2rem 0;
   text-align: center;
@@ -24,7 +30,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 3rem;
-  color: purple;
+  color: rgb(255, 255, 255);
   border: 2px solid black;
 }
 
@@ -38,7 +44,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  background: #333;
+  background: #919191;
   padding: 1rem 0;
 }
 
@@ -67,7 +73,7 @@ section {
 }
 
 h2 {
-  color: #ff9800;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -85,7 +91,7 @@ h2 {
   border-radius: 6px;
   padding: 1rem;
   flex: 1 1 200px;
-  background-color: green;
+  background-color: rgba(28, 95, 240, 0.705);
 }
 
 .project a {
@@ -94,7 +100,7 @@ h2 {
 }
 
 p {
-  color: green;
+  color: rgb(0, 0, 0);
 }
 
 a {
